@@ -1,0 +1,715 @@
+2020-03-09 11:03:08,272-[test_recharge.py-->line:82]-ERROR:用例:会员id为字符串未通过
+2020-03-09 11:03:08,272-[test_recharge.py-->line:83]-ERROR: :: 2 != 0
+Traceback (most recent call last):
+  File "D:\PyCharm 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\python3.8\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3.8\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\futureloan_project\testcases\test_recharge.py", line 76, in test_recharge
+    self.assertEqual(recharge_expected["code"], infact_result["code"])
+  File "D:\PyCharm 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 2 != 0
+2020-03-09 11:03:08,682-[test_recharge.py-->line:82]-ERROR:用例:充值金额为0未通过
+2020-03-09 11:03:08,682-[test_recharge.py-->line:83]-ERROR: :: 2 != 0
+Traceback (most recent call last):
+  File "D:\PyCharm 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\python3.8\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3.8\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\futureloan_project\testcases\test_recharge.py", line 76, in test_recharge
+    self.assertEqual(recharge_expected["code"], infact_result["code"])
+  File "D:\PyCharm 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 2 != 0
+2020-03-09 12:04:36,558-[test_recharge.py-->line:80]-ERROR:用例:会员id为字符串未通过
+2020-03-09 12:04:36,558-[test_recharge.py-->line:81]-ERROR: :: 2 != 0
+Traceback (most recent call last):
+  File "D:\PyCharm 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\python3.8\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3.8\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\futureloan_project\testcases\test_recharge.py", line 74, in test_recharge
+    self.assertEqual(recharge_expected["code"], infact_result["code"])
+  File "D:\PyCharm 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 2 != 0
+2020-03-09 12:04:37,181-[test_recharge.py-->line:80]-ERROR:用例:充值金额为0未通过
+2020-03-09 12:04:37,181-[test_recharge.py-->line:81]-ERROR: :: 2 != 0
+Traceback (most recent call last):
+  File "D:\PyCharm 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\python3.8\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3.8\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\futureloan_project\testcases\test_recharge.py", line 74, in test_recharge
+    self.assertEqual(recharge_expected["code"], infact_result["code"])
+  File "D:\PyCharm 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 2 != 0
+2020-03-09 12:08:53,535-[test_withdraw.py-->line:80]-ERROR:用例:提现失败-会员ID为字符串未通过
+2020-03-09 12:08:53,535-[test_withdraw.py-->line:81]-ERROR: :: 2 != 0
+Traceback (most recent call last):
+  File "D:\PyCharm 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\python3.8\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3.8\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\futureloan_project\testcases\test_withdraw.py", line 74, in test_withdraw
+    self.assertEqual(withdraw_expected["code"],json_data["code"])
+  File "D:\PyCharm 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 2 != 0
+2020-03-09 12:08:53,936-[test_withdraw.py-->line:80]-ERROR:用例:提现失败-提现金额为0未通过
+2020-03-09 12:08:53,937-[test_withdraw.py-->line:81]-ERROR: :: 2 != 0
+Traceback (most recent call last):
+  File "D:\PyCharm 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\python3.8\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3.8\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\futureloan_project\testcases\test_withdraw.py", line 74, in test_withdraw
+    self.assertEqual(withdraw_expected["code"],json_data["code"])
+  File "D:\PyCharm 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 2 != 0
+2020-03-09 12:08:54,133-[test_withdraw.py-->line:80]-ERROR:用例:提现失败-提现金额为-1未通过
+2020-03-09 12:08:54,133-[test_withdraw.py-->line:81]-ERROR: :: 余额必须大于0并且小于或者等于500000 != 余额必须大于0并且小于或者等于5000000
+Traceback (most recent call last):
+  File "D:\PyCharm 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\python3.8\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3.8\lib\unittest\case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\python3.8\lib\unittest\case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '余额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于5000000'
+- 余额必须大于0并且小于或者等于500000
++ 余额必须大于0并且小于或者等于5000000
+?                      +
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\futureloan_project\testcases\test_withdraw.py", line 75, in test_withdraw
+    self.assertEqual(withdraw_expected["msg"],json_data["msg"])
+  File "D:\PyCharm 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 余额必须大于0并且小于或者等于500000 != 余额必须大于0并且小于或者等于5000000
+2020-03-09 12:08:54,520-[test_withdraw.py-->line:80]-ERROR:用例:提现失败-提现金额为600000未通过
+2020-03-09 12:08:54,521-[test_withdraw.py-->line:81]-ERROR: :: 余额必须大于0并且小于或者等于500000 != 余额必须大于0并且小于或者等于5000000
+Traceback (most recent call last):
+  File "D:\PyCharm 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\python3.8\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3.8\lib\unittest\case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\python3.8\lib\unittest\case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '余额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于5000000'
+- 余额必须大于0并且小于或者等于500000
++ 余额必须大于0并且小于或者等于5000000
+?                      +
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\futureloan_project\testcases\test_withdraw.py", line 75, in test_withdraw
+    self.assertEqual(withdraw_expected["msg"],json_data["msg"])
+  File "D:\PyCharm 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 余额必须大于0并且小于或者等于500000 != 余额必须大于0并且小于或者等于5000000
+2020-03-09 13:31:11,209-[test_add.py-->line:75]-ERROR:用例:新增项目失败--期限10天竞标9天未通过
+2020-03-09 13:31:11,209-[test_add.py-->line:76]-ERROR: :: 2 != 0
+Traceback (most recent call last):
+  File "D:\PyCharm 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\python3.8\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3.8\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\futureloan_project\testcases\test_add.py", line 67, in test_add
+    self.assertEqual(add_expected["code"],json_data["code"])
+  File "D:\PyCharm 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 2 != 0
+2020-03-09 13:31:11,912-[test_add.py-->line:75]-ERROR:用例:新增项目失败--借款金额为字符串未通过
+2020-03-09 13:31:11,912-[test_add.py-->line:76]-ERROR: :: 1 != 0
+Traceback (most recent call last):
+  File "D:\PyCharm 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\python3.8\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3.8\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\futureloan_project\testcases\test_add.py", line 67, in test_add
+    self.assertEqual(add_expected["code"],json_data["code"])
+  File "D:\PyCharm 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 1 != 0
+2020-03-09 13:31:12,769-[test_add.py-->line:75]-ERROR:用例:新增项目失败--借款标题为数字未通过
+2020-03-09 13:31:12,769-[test_add.py-->line:76]-ERROR: :: 1 != 0
+Traceback (most recent call last):
+  File "D:\PyCharm 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\python3.8\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3.8\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\futureloan_project\testcases\test_add.py", line 67, in test_add
+    self.assertEqual(add_expected["code"],json_data["code"])
+  File "D:\PyCharm 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 1 != 0
+2020-03-09 13:31:13,006-[test_add.py-->line:75]-ERROR:用例:新增项目失败--借款类型不存在未通过
+2020-03-09 13:31:13,006-[test_add.py-->line:76]-ERROR: :: 1 != 2
+Traceback (most recent call last):
+  File "D:\PyCharm 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\python3.8\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3.8\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\futureloan_project\testcases\test_add.py", line 67, in test_add
+    self.assertEqual(add_expected["code"],json_data["code"])
+  File "D:\PyCharm 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 1 != 2
+2020-03-09 13:31:37,504-[test_add.py-->line:75]-ERROR:用例:新增项目失败--期限10天竞标9天未通过
+2020-03-09 13:31:37,520-[test_add.py-->line:76]-ERROR: :: 2 != 0
+Traceback (most recent call last):
+  File "D:\PyCharm 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\python3.8\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3.8\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\futureloan_project\testcases\test_add.py", line 67, in test_add
+    self.assertEqual(add_expected["code"],json_data["code"])
+  File "D:\PyCharm 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 2 != 0
+2020-03-09 13:31:38,154-[test_add.py-->line:75]-ERROR:用例:新增项目失败--借款金额为字符串未通过
+2020-03-09 13:31:38,154-[test_add.py-->line:76]-ERROR: :: 1 != 0
+Traceback (most recent call last):
+  File "D:\PyCharm 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\python3.8\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3.8\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\futureloan_project\testcases\test_add.py", line 67, in test_add
+    self.assertEqual(add_expected["code"],json_data["code"])
+  File "D:\PyCharm 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 1 != 0
+2020-03-09 13:31:39,007-[test_add.py-->line:75]-ERROR:用例:新增项目失败--借款标题为数字未通过
+2020-03-09 13:31:39,007-[test_add.py-->line:76]-ERROR: :: 1 != 0
+Traceback (most recent call last):
+  File "D:\PyCharm 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\python3.8\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3.8\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\futureloan_project\testcases\test_add.py", line 67, in test_add
+    self.assertEqual(add_expected["code"],json_data["code"])
+  File "D:\PyCharm 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 1 != 0
+2020-03-09 13:31:39,216-[test_add.py-->line:75]-ERROR:用例:新增项目失败--借款类型不存在未通过
+2020-03-09 13:31:39,216-[test_add.py-->line:76]-ERROR: :: 1 != 2
+Traceback (most recent call last):
+  File "D:\PyCharm 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\python3.8\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3.8\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\futureloan_project\testcases\test_add.py", line 67, in test_add
+    self.assertEqual(add_expected["code"],json_data["code"])
+  File "D:\PyCharm 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 1 != 2
+2020-03-09 13:39:26,578-[test_add.py-->line:75]-ERROR:用例:新增项目失败--借款金额为字符串未通过
+2020-03-09 13:39:26,578-[test_add.py-->line:76]-ERROR: :: 1 != 0
+Traceback (most recent call last):
+  File "D:\PyCharm 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\python3.8\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3.8\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\futureloan_project\testcases\test_add.py", line 67, in test_add
+    self.assertEqual(add_expected["code"],json_data["code"])
+  File "D:\PyCharm 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 1 != 0
+2020-03-09 13:39:27,401-[test_add.py-->line:75]-ERROR:用例:新增项目失败--借款标题为数字未通过
+2020-03-09 13:39:27,403-[test_add.py-->line:76]-ERROR: :: 1 != 0
+Traceback (most recent call last):
+  File "D:\PyCharm 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\python3.8\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3.8\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\futureloan_project\testcases\test_add.py", line 67, in test_add
+    self.assertEqual(add_expected["code"],json_data["code"])
+  File "D:\PyCharm 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 1 != 0
+2020-03-09 13:39:27,613-[test_add.py-->line:75]-ERROR:用例:新增项目失败--借款类型不存在未通过
+2020-03-09 13:39:27,613-[test_add.py-->line:76]-ERROR: :: 1 != 2
+Traceback (most recent call last):
+  File "D:\PyCharm 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\python3.8\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3.8\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\futureloan_project\testcases\test_add.py", line 67, in test_add
+    self.assertEqual(add_expected["code"],json_data["code"])
+  File "D:\PyCharm 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 1 != 2
+2020-03-09 13:44:14,158-[test_add.py-->line:75]-ERROR:用例:新增项目失败--借款金额为字符串未通过
+2020-03-09 13:44:14,158-[test_add.py-->line:76]-ERROR: :: 1 != 0
+Traceback (most recent call last):
+  File "D:\PyCharm 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\python3.8\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3.8\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\futureloan_project\testcases\test_add.py", line 67, in test_add
+    self.assertEqual(add_expected["code"],json_data["code"])
+  File "D:\PyCharm 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 1 != 0
+2020-03-09 13:44:15,038-[test_add.py-->line:75]-ERROR:用例:新增项目失败--借款标题为数字未通过
+2020-03-09 13:44:15,038-[test_add.py-->line:76]-ERROR: :: 1 != 0
+Traceback (most recent call last):
+  File "D:\PyCharm 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "D:\python3.8\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3.8\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\futureloan_project\testcases\test_add.py", line 67, in test_add
+    self.assertEqual(add_expected["code"],json_data["code"])
+  File "D:\PyCharm 2018.2.4\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 1 != 0
+2020-03-09 14:46:38,851-[test_add.py-->line:75]-ERROR:用例:新增项目失败--借款金额为字符串未通过
+2020-03-09 14:46:38,852-[test_add.py-->line:76]-ERROR:1 != 0
+Traceback (most recent call last):
+  File "E:\futureloan_project\testcases\test_add.py", line 67, in test_add
+    self.assertEqual(add_expected["code"],json_data["code"])
+  File "D:\python3.8\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3.8\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 0
+2020-03-09 14:46:39,626-[test_add.py-->line:75]-ERROR:用例:新增项目失败--借款标题为数字未通过
+2020-03-09 14:46:39,626-[test_add.py-->line:76]-ERROR:1 != 0
+Traceback (most recent call last):
+  File "E:\futureloan_project\testcases\test_add.py", line 67, in test_add
+    self.assertEqual(add_expected["code"],json_data["code"])
+  File "D:\python3.8\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3.8\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 0
+2020-03-09 14:46:51,581-[test_recharge.py-->line:80]-ERROR:用例:会员id为字符串未通过
+2020-03-09 14:46:51,582-[test_recharge.py-->line:81]-ERROR:2 != 0
+Traceback (most recent call last):
+  File "E:\futureloan_project\testcases\test_recharge.py", line 74, in test_recharge
+    self.assertEqual(recharge_expected["code"], infact_result["code"])
+  File "D:\python3.8\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3.8\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-03-09 14:46:51,990-[test_recharge.py-->line:80]-ERROR:用例:充值金额为0未通过
+2020-03-09 14:46:51,990-[test_recharge.py-->line:81]-ERROR:2 != 0
+Traceback (most recent call last):
+  File "E:\futureloan_project\testcases\test_recharge.py", line 74, in test_recharge
+    self.assertEqual(recharge_expected["code"], infact_result["code"])
+  File "D:\python3.8\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3.8\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-03-09 14:47:09,973-[test_withdraw.py-->line:80]-ERROR:用例:提现成功-提现金额500000未通过
+2020-03-09 14:47:09,973-[test_withdraw.py-->line:81]-ERROR:0 != 1002
+Traceback (most recent call last):
+  File "E:\futureloan_project\testcases\test_withdraw.py", line 74, in test_withdraw
+    self.assertEqual(withdraw_expected["code"],json_data["code"])
+  File "D:\python3.8\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3.8\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1002
+2020-03-09 14:47:10,529-[test_withdraw.py-->line:80]-ERROR:用例:提现失败-会员ID为字符串未通过
+2020-03-09 14:47:10,529-[test_withdraw.py-->line:81]-ERROR:2 != 0
+Traceback (most recent call last):
+  File "E:\futureloan_project\testcases\test_withdraw.py", line 74, in test_withdraw
+    self.assertEqual(withdraw_expected["code"],json_data["code"])
+  File "D:\python3.8\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3.8\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-03-09 14:47:10,913-[test_withdraw.py-->line:80]-ERROR:用例:提现失败-提现金额为0未通过
+2020-03-09 14:47:10,913-[test_withdraw.py-->line:81]-ERROR:2 != 0
+Traceback (most recent call last):
+  File "E:\futureloan_project\testcases\test_withdraw.py", line 74, in test_withdraw
+    self.assertEqual(withdraw_expected["code"],json_data["code"])
+  File "D:\python3.8\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3.8\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-03-09 14:47:11,103-[test_withdraw.py-->line:80]-ERROR:用例:提现失败-提现金额为-1未通过
+2020-03-09 14:47:11,103-[test_withdraw.py-->line:81]-ERROR:'余额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于5000000'
+- 余额必须大于0并且小于或者等于500000
++ 余额必须大于0并且小于或者等于5000000
+?                      +
+Traceback (most recent call last):
+  File "E:\futureloan_project\testcases\test_withdraw.py", line 75, in test_withdraw
+    self.assertEqual(withdraw_expected["msg"],json_data["msg"])
+  File "D:\python3.8\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3.8\lib\unittest\case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\python3.8\lib\unittest\case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '余额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于5000000'
+- 余额必须大于0并且小于或者等于500000
++ 余额必须大于0并且小于或者等于5000000
+?                      +
+
+2020-03-09 14:47:11,486-[test_withdraw.py-->line:80]-ERROR:用例:提现失败-提现金额为600000未通过
+2020-03-09 14:47:11,486-[test_withdraw.py-->line:81]-ERROR:'余额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于5000000'
+- 余额必须大于0并且小于或者等于500000
++ 余额必须大于0并且小于或者等于5000000
+?                      +
+Traceback (most recent call last):
+  File "E:\futureloan_project\testcases\test_withdraw.py", line 75, in test_withdraw
+    self.assertEqual(withdraw_expected["msg"],json_data["msg"])
+  File "D:\python3.8\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3.8\lib\unittest\case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\python3.8\lib\unittest\case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '余额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于5000000'
+- 余额必须大于0并且小于或者等于500000
++ 余额必须大于0并且小于或者等于5000000
+?                      +
+
+2020-03-09 16:20:29,014-[test_add.py-->line:75]-ERROR:用例:新增项目失败--借款金额为字符串未通过
+2020-03-09 16:20:29,014-[test_add.py-->line:76]-ERROR:1 != 0
+Traceback (most recent call last):
+  File "E:\futureloanv2_project\testcases\test_add.py", line 67, in test_add
+    self.assertEqual(add_expected["code"],json_data["code"])
+  File "D:\python3.8\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3.8\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 0
+2020-03-09 16:20:30,087-[test_add.py-->line:75]-ERROR:用例:新增项目失败--借款标题为数字未通过
+2020-03-09 16:20:30,087-[test_add.py-->line:76]-ERROR:1 != 0
+Traceback (most recent call last):
+  File "E:\futureloanv2_project\testcases\test_add.py", line 67, in test_add
+    self.assertEqual(add_expected["code"],json_data["code"])
+  File "D:\python3.8\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3.8\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 0
+2020-03-09 16:20:40,682-[test_recharge.py-->line:80]-ERROR:用例:会员id为字符串未通过
+2020-03-09 16:20:40,682-[test_recharge.py-->line:81]-ERROR:2 != 0
+Traceback (most recent call last):
+  File "E:\futureloanv2_project\testcases\test_recharge.py", line 74, in test_recharge
+    self.assertEqual(recharge_expected["code"], infact_result["code"])
+  File "D:\python3.8\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3.8\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-03-09 16:20:41,402-[test_recharge.py-->line:80]-ERROR:用例:充值金额为0未通过
+2020-03-09 16:20:41,403-[test_recharge.py-->line:81]-ERROR:2 != 0
+Traceback (most recent call last):
+  File "E:\futureloanv2_project\testcases\test_recharge.py", line 74, in test_recharge
+    self.assertEqual(recharge_expected["code"], infact_result["code"])
+  File "D:\python3.8\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3.8\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-03-09 16:20:51,904-[test_withdraw.py-->line:80]-ERROR:用例:提现失败-会员ID为字符串未通过
+2020-03-09 16:20:51,904-[test_withdraw.py-->line:81]-ERROR:2 != 0
+Traceback (most recent call last):
+  File "E:\futureloanv2_project\testcases\test_withdraw.py", line 74, in test_withdraw
+    self.assertEqual(withdraw_expected["code"],json_data["code"])
+  File "D:\python3.8\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3.8\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-03-09 16:20:52,372-[test_withdraw.py-->line:80]-ERROR:用例:提现失败-提现金额为0未通过
+2020-03-09 16:20:52,372-[test_withdraw.py-->line:81]-ERROR:2 != 0
+Traceback (most recent call last):
+  File "E:\futureloanv2_project\testcases\test_withdraw.py", line 74, in test_withdraw
+    self.assertEqual(withdraw_expected["code"],json_data["code"])
+  File "D:\python3.8\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3.8\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-03-09 16:20:52,562-[test_withdraw.py-->line:80]-ERROR:用例:提现失败-提现金额为-1未通过
+2020-03-09 16:20:52,565-[test_withdraw.py-->line:81]-ERROR:'余额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于5000000'
+- 余额必须大于0并且小于或者等于500000
++ 余额必须大于0并且小于或者等于5000000
+?                      +
+Traceback (most recent call last):
+  File "E:\futureloanv2_project\testcases\test_withdraw.py", line 75, in test_withdraw
+    self.assertEqual(withdraw_expected["msg"],json_data["msg"])
+  File "D:\python3.8\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3.8\lib\unittest\case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\python3.8\lib\unittest\case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '余额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于5000000'
+- 余额必须大于0并且小于或者等于500000
++ 余额必须大于0并且小于或者等于5000000
+?                      +
+
+2020-03-09 16:20:52,932-[test_withdraw.py-->line:80]-ERROR:用例:提现失败-提现金额为600000未通过
+2020-03-09 16:20:52,932-[test_withdraw.py-->line:81]-ERROR:'余额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于5000000'
+- 余额必须大于0并且小于或者等于500000
++ 余额必须大于0并且小于或者等于5000000
+?                      +
+Traceback (most recent call last):
+  File "E:\futureloanv2_project\testcases\test_withdraw.py", line 75, in test_withdraw
+    self.assertEqual(withdraw_expected["msg"],json_data["msg"])
+  File "D:\python3.8\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3.8\lib\unittest\case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\python3.8\lib\unittest\case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '余额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于5000000'
+- 余额必须大于0并且小于或者等于500000
++ 余额必须大于0并且小于或者等于5000000
+?                      +
+
+2020-03-10 20:00:52,425-[test_add.py-->line:75]-ERROR:用例:新增项目失败--借款金额为字符串未通过
+2020-03-10 20:00:52,425-[test_add.py-->line:76]-ERROR:1 != 0
+Traceback (most recent call last):
+  File "E:\futureloanv2_project\testcases\test_add.py", line 67, in test_add
+    self.assertEqual(add_expected["code"],json_data["code"])
+  File "D:\python3.8\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3.8\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 0
+2020-03-10 20:00:53,188-[test_add.py-->line:75]-ERROR:用例:新增项目失败--借款标题为数字未通过
+2020-03-10 20:00:53,188-[test_add.py-->line:76]-ERROR:1 != 0
+Traceback (most recent call last):
+  File "E:\futureloanv2_project\testcases\test_add.py", line 67, in test_add
+    self.assertEqual(add_expected["code"],json_data["code"])
+  File "D:\python3.8\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3.8\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 0
+2020-03-10 20:01:01,984-[test_recharge.py-->line:80]-ERROR:用例:会员id为字符串未通过
+2020-03-10 20:01:01,984-[test_recharge.py-->line:81]-ERROR:2 != 0
+Traceback (most recent call last):
+  File "E:\futureloanv2_project\testcases\test_recharge.py", line 74, in test_recharge
+    self.assertEqual(recharge_expected["code"], infact_result["code"])
+  File "D:\python3.8\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3.8\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-03-10 20:01:02,368-[test_recharge.py-->line:80]-ERROR:用例:充值金额为0未通过
+2020-03-10 20:01:02,369-[test_recharge.py-->line:81]-ERROR:2 != 0
+Traceback (most recent call last):
+  File "E:\futureloanv2_project\testcases\test_recharge.py", line 74, in test_recharge
+    self.assertEqual(recharge_expected["code"], infact_result["code"])
+  File "D:\python3.8\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3.8\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-03-10 20:01:12,689-[test_withdraw.py-->line:80]-ERROR:用例:提现失败-会员ID为字符串未通过
+2020-03-10 20:01:12,689-[test_withdraw.py-->line:81]-ERROR:2 != 0
+Traceback (most recent call last):
+  File "E:\futureloanv2_project\testcases\test_withdraw.py", line 74, in test_withdraw
+    self.assertEqual(withdraw_expected["code"],json_data["code"])
+  File "D:\python3.8\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3.8\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-03-10 20:01:13,047-[test_withdraw.py-->line:80]-ERROR:用例:提现失败-提现金额为0未通过
+2020-03-10 20:01:13,047-[test_withdraw.py-->line:81]-ERROR:2 != 0
+Traceback (most recent call last):
+  File "E:\futureloanv2_project\testcases\test_withdraw.py", line 74, in test_withdraw
+    self.assertEqual(withdraw_expected["code"],json_data["code"])
+  File "D:\python3.8\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3.8\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-03-10 20:01:13,235-[test_withdraw.py-->line:80]-ERROR:用例:提现失败-提现金额为-1未通过
+2020-03-10 20:01:13,235-[test_withdraw.py-->line:81]-ERROR:'余额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于5000000'
+- 余额必须大于0并且小于或者等于500000
++ 余额必须大于0并且小于或者等于5000000
+?                      +
+Traceback (most recent call last):
+  File "E:\futureloanv2_project\testcases\test_withdraw.py", line 75, in test_withdraw
+    self.assertEqual(withdraw_expected["msg"],json_data["msg"])
+  File "D:\python3.8\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3.8\lib\unittest\case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\python3.8\lib\unittest\case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '余额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于5000000'
+- 余额必须大于0并且小于或者等于500000
++ 余额必须大于0并且小于或者等于5000000
+?                      +
+
+2020-03-10 20:01:13,615-[test_withdraw.py-->line:80]-ERROR:用例:提现失败-提现金额为600000未通过
+2020-03-10 20:01:13,615-[test_withdraw.py-->line:81]-ERROR:'余额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于5000000'
+- 余额必须大于0并且小于或者等于500000
++ 余额必须大于0并且小于或者等于5000000
+?                      +
+Traceback (most recent call last):
+  File "E:\futureloanv2_project\testcases\test_withdraw.py", line 75, in test_withdraw
+    self.assertEqual(withdraw_expected["msg"],json_data["msg"])
+  File "D:\python3.8\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\python3.8\lib\unittest\case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\python3.8\lib\unittest\case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: '余额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于5000000'
+- 余额必须大于0并且小于或者等于500000
++ 余额必须大于0并且小于或者等于5000000
+?                      +
+
